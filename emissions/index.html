@@ -22,7 +22,7 @@
                 <div class="col-6">
                     <h3>Vehicle Emissions</h3>
                     <form>
-                        <div>
+                        <div class="mb-3">
                           <label for="vehicleType" class="form-label">Vehicle Fuel Type: </label>
                           <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="vehicleRadioOptions" id="vehicleRadio1" value="electric">
@@ -33,15 +33,16 @@
                             <label class="form-check-label" for="vehicleRadio2">Gas</label>
                           </div>
                         </div>
-                        <div class="mb-3">
-                          <label for="mpg" class="form-label">MPG Rating</label>
-                          <input type="text" class="form-control" id="mpg">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <label for="mpg" class="form-label">(e)MPG Rating: </label>
+                            <input type="text" class="form-control" id="mpg">
+                          </div>
+                          <div class="col-md-4">
+                            <label for="drivingMiles" class="form-label">Miles Driven (Daily): </label>
+                            <input type="text" class="form-control" id="drivingMiles">
+                          </div>
                         </div>
-                        <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
                       </form>
                 </div>
             </div>
